@@ -1,4 +1,5 @@
 import SwiftUI
+import UIKit
 
 @main
 struct Breathing478App: App {
@@ -8,6 +9,12 @@ struct Breathing478App: App {
         WindowGroup {
             ContentView()
                 .environmentObject(store)
+                .onAppear {
+                    UIApplication.shared.isIdleTimerDisabled = true
+                }
+                .onDisappear {
+                    UIApplication.shared.isIdleTimerDisabled = false
+                }
         }
     }
 }
