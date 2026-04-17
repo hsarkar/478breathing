@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A10000010000000000000001 /* Breathing478App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000001; };
-		A10000010000000000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000002; };
-		A10000010000000000000003 /* BreathingSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000003; };
-		A10000010000000000000004 /* BreathingPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000004; };
-		A10000010000000000000005 /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000005; };
-		A10000010000000000000006 /* AudioService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000006; };
-		A10000010000000000000007 /* BreathingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000007; };
-		A10000010000000000000008 /* BreathingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000008; };
-		A10000010000000000000009 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000009; };
-		A10000010000000000000010 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000010; };
-		A10000010000000000000011 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000011; };
+		A10000010000000000000001 /* Breathing478App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000001 /* Breathing478App.swift */; };
+		A10000010000000000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000002 /* ContentView.swift */; };
+		A10000010000000000000003 /* BreathingSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000003 /* BreathingSession.swift */; };
+		A10000010000000000000004 /* BreathingPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000004 /* BreathingPhase.swift */; };
+		A10000010000000000000005 /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000005 /* SessionStore.swift */; };
+		A10000010000000000000006 /* AudioService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000006 /* AudioService.swift */; };
+		A10000010000000000000007 /* BreathingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000007 /* BreathingViewModel.swift */; };
+		A10000010000000000000008 /* BreathingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000008 /* BreathingView.swift */; };
+		A10000010000000000000009 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000009 /* HistoryView.swift */; };
+		A10000010000000000000010 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000010 /* SettingsView.swift */; };
+		A10000010000000000000011 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000011 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,7 +46,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A50000010000000000000001 /* Root */ = {
+		A50000010000000000000001 = {
 			isa = PBXGroup;
 			children = (
 				A50000010000000000000002 /* Breathing478 */,
@@ -324,6 +324,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = R4BMN498LG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "478 Breathing";
@@ -355,6 +356,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = R4BMN498LG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "478 Breathing";
@@ -400,7 +402,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
 	};
 	rootObject = A90000010000000000000001 /* Project object */;
 }
